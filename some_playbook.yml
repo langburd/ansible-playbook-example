@@ -1,0 +1,10 @@
+---
+- name: Some Name
+  hosts: all
+
+  pre_tasks:
+    - name: Include some additional playbook
+      import_playbook: include/some_additional_playbook.yml
+
+  roles:
+    - { role: some_role }

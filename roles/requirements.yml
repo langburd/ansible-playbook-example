@@ -1,0 +1,5 @@
+---
+- src: git@github.com:some_user/some-ansible-role-repo.git
+  version: "master"
+  name: some_role
+  scm: git
